@@ -190,12 +190,12 @@ def generate_shifts():
 # uncomment the lines below to see how the functions work
 # -------------------------------------------- #
 
-w = "This is a string of data that will be encrypted once and saved as img"
-
-x = prism(w, 'data')  # encrypts the string and saves it as data.png and returns the seed
-z = prism_decrypt("data.png", x)  # opens the image, takes in the seed as x, decrypts the image and returns the string
-print(z)  # prints the string from the image
-
-prism_hash("data.png", "img_hash")  # sorts the rgb values in the image with no index and saves it as img_hash.png
-zz = compare_img_hash("data.png", "img_hash.png")  # compares the two images and returns True if they are the same
-print(zz)  # prints True if the images are the same
+# w = "This is a string of data that will be encrypted once and saved as img"
+#
+# x = prism(w, 'data')  # encrypts the string and saves it as data.png and returns the seed
+# z = prism_decrypt("data.png", x)  # opens the image, takes in the seed as x, decrypts the image and returns the string
+# print(z)  # prints the string from the image
+#
+# prism_hash("data.png", "img_hash")  # sorts the rgb values in the image with no index and saves it as img_hash.png
+# zz = compare_img_hash("data.png", "img_hash.png")  # compares the two images and returns True if they are the same
+# print(zz)  # prints True if the images are the same
