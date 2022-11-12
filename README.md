@@ -1,6 +1,8 @@
 # prism
 prism is a tool that encrypts data into an image, you can also  hash to an image and compare the image to the hash image similar to password hashing
 
+example images for encryption and hash of that encryption have been included in project files
+
 Pillow is required for img processing (pip install Pillow)
 
 prism(string: str, new_name: str)
