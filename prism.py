@@ -1,7 +1,6 @@
 import os
 import random
 import math
-import time
 
 from PIL import Image
 
